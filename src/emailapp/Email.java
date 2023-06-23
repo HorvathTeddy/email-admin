@@ -82,4 +82,7 @@ public class Email {
 	public String getPassword() {
 		return password;
 	}
+	public String showInfo() {
+		return "Name: " + firstName + " " + lastName + "\n" + "Email: " + email;
+	}
 }
